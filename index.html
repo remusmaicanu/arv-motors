@@ -11,6 +11,7 @@
     />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="container">
         <h1>ARV Motors</h1>
@@ -26,6 +27,7 @@
       </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="hero">
       <div class="container">
         <h2>Il Tuo Partner Affidabile per Auto e Servizi Stradali</h2>
@@ -37,120 +39,63 @@
       </div>
     </section>
 
-    <section id="compravendita">
+    <!-- Car List Section -->
+    <section id="car-list">
       <div class="container">
-        <h2>Compravendita Auto</h2>
-        <p>
-          Acquista o vendi la tua auto con facilità e sicurezza. Offriamo
-          valutazioni trasparenti e un processo senza stress.
-        </p>
-      </div>
-    </section>
-
-    <section id="soccorso">
-      <div class="container">
-        <h2>Soccorso Stradale</h2>
-        <p>
-          Assistenza 24/7 per ogni emergenza stradale. Siamo sempre pronti ad
-          aiutarti.
-        </p>
-      </div>
-    </section>
-
-    <section id="vendita">
-      <div class="container">
-        <h2>Auto in Vendita</h2>
-        <p>
-          Scopri le nostre auto disponibili. Nuove, usate e di alta qualità.
-        </p>
-      </div>
-    </section>
-
-    <section id="valutazione">
-      <div class="container">
-        <h2>Valutiamo la Tua Auto</h2>
-        <p>
-          Ottieni una valutazione gratuita e competitiva per la tua auto in
-          pochi minuti.
-        </p>
-      </div>
-    </section>
-    <!-- Add this section below your existing sections -->
-    <section id="gallery">
-      <div class="container">
-        <div class="slider">
-          <div class="slides">
-          
+        <h2>Le Nostre Auto</h2>
+        <div class="car-grid">
+          <!-- Car 1 -->
+          <div class="car-card">
+            <img src="images/DSC04309.jpg" alt="Car 1" />
+            <div class="car-details">
+              <h3>BMW Serie 3</h3>
+              <p class="price">€35,000</p>
+              <p class="description">
+                Elegante e sportiva, perfetta per la città.
+              </p>
+              <ul class="features">
+                <li>Anno: 2022</li>
+                <li>Km: 15,000</li>
+                <li>Carburante: Benzina</li>
+              </ul>
+              <a href="#contatti" class="btn">Contattaci</a>
             </div>
           </div>
-          <!-- Car List Section -->
-          <section id="car-list">
-            <div class="container">
-              <h2>Le Nostre Auto</h2>
-              <div class="car-grid">
-                <!-- Car 1 -->
-                <div class="car-card">
-                  <img src="images/DSC04309.jpg" alt="Car 1" />
-                  <div class="car-details">
-                    <h3>BMW Serie 3</h3>
-                    <p class="price">€35,000</p>
-                    <p class="description">
-                      Elegante e sportiva, perfetta per la città.
-                    </p>
-                    <ul class="features">
-                      <li>Anno: 2022</li>
-                      <li>Km: 15,000</li>
-                      <li>Carburante: Benzina</li>
-                    </ul>
-                    <a href="#contatti" class="btn">Contattaci</a>
-                  </div>
-                </div>
-                <!-- Car 2 -->
-                <div class="car-card">
-                  <img src="images/DSC04318.JPG" alt="Car 2" />
-                  <div class="car-details">
-                    <h3>Audi A4</h3>
-                    <p class="price">€40,000</p>
-                    <p class="description">
-                      Design moderno e tecnologia avanzata.
-                    </p>
-                    <ul class="features">
-                      <li>Anno: 2021</li>
-                      <li>Km: 20,000</li>
-                      <li>Carburante: Diesel</li>
-                    </ul>
-                    <a href="#contatti" class="btn">Contattaci</a>
-                  </div>
-                </div>
-                <!-- Car 3 -->
-                <div class="car-card">
-                  <img src="images/DSC04362.jpg" alt="Car 3" />
-                  <div class="car-details">
-                    <h3>Mercedes Classe C</h3>
-                    <p class="price">€45,000</p>
-                    <p class="description">
-                      Lusso e comfort senza compromessi.
-                    </p>
-                    <ul class="features">
-                      <li>Anno: 2020</li>
-                      <li>Km: 25,000</li>
-                      <li>Carburante: Ibrida</li>
-                    </ul>
-                    <a href="#contatti" class="btn">Contattaci</a>
-                  </div>
-                </div>
-                <!-- Add more cars as needed -->
-              </div>
+          <!-- Car 2 -->
+          <div class="car-card">
+            <img src="images/DSC04318.jpg" alt="Car 2" />
+            <div class="car-details">
+              <h3>Audi A4</h3>
+              <p class="price">€40,000</p>
+              <p class="description">Design moderno e tecnologia avanzata.</p>
+              <ul class="features">
+                <li>Anno: 2021</li>
+                <li>Km: 20,000</li>
+                <li>Carburante: Diesel</li>
+              </ul>
+              <a href="#contatti" class="btn">Contattaci</a>
             </div>
-          </section>
-
-          <!-- Navigation Buttons -->
-          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+          </div>
+          <!-- Car 3 -->
+          <div class="car-card">
+            <img src="images/DSC04362.jpg" alt="Car 3" />
+            <div class="car-details">
+              <h3>Mercedes Classe C</h3>
+              <p class="price">€45,000</p>
+              <p class="description">Lusso e comfort senza compromessi.</p>
+              <ul class="features">
+                <li>Anno: 2020</li>
+                <li>Km: 25,000</li>
+                <li>Carburante: Ibrida</li>
+              </ul>
+              <a href="#contatti" class="btn">Contattaci</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- Sliding Booking Section -->
+
+    <!-- Booking Slider Section -->
     <section id="prenota">
       <div class="container">
         <h2>Come Prenotare</h2>
@@ -217,6 +162,7 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contatti">
       <div class="container">
         <h2>Contatti</h2>
@@ -231,33 +177,14 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>
       <div class="container">
         <p>&copy; 2023 ARV Motors. Tutti i diritti riservati.</p>
       </div>
     </footer>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
-    <script>
-      let slideIndex = 0;
-
-      function moveSlide(n) {
-        const slides = document.querySelector(".slides");
-        const totalSlides = document.querySelectorAll(".slide").length;
-
-        slideIndex += n;
-
-        if (slideIndex >= totalSlides) {
-          slideIndex = 0;
-        } else if (slideIndex < 0) {
-          slideIndex = totalSlides - 1;
-        }
-
-        slides.style.transform = `translateX(${-slideIndex * 100}%)`;
-      }
-
-      setInterval(() => {
-        moveSlide(1);
-      }, 5000);
-    </script>
   </body>
 </html>
